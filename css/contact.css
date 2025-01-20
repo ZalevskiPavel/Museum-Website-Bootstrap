@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bellefair&family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-image: url('../src/contacts_bg.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+/*header container*/
+
+.header_container{
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    align-items: end;
+}
+
+.blackout{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    background-image: linear-gradient(to bottom, rgba(142, 134, 134, 0.555), black);
+    opacity: 0.5;
+}
+
+.header_container p{
+    font-family: Bellefair;
+    font-size: 90px;
+    padding: 10px 0px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+/*Worms*/
+
+#worms{
+    background-image: linear-gradient(to bottom, rgba(229, 224, 224, 0.792), white);
+    padding: 20px 0;
+    color: #000;
+}
+
+.worms_themselves a{
+    color: #000;
+    position: relative;
+    text-decoration: none;
+}
+
+.worms_themselves a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: 0.3s;
+}
+
+.worms_themselves a:hover{
+    color: #404040;
+    transition: 0.3s;
+}
+
+.worms_themselves a:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#worms ul li a{
+    text-decoration: none;
+}
+
+#worms ul li a i{
+    width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    color:#000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    transition: 0.5s;
+    border: 2px solid #ffffff;
+}
+
+#worms ul li a i:hover{
+    background: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+/*FAQ*/
+
+#faq{
+    background-color: #ffffff;
+    padding-bottom: 30px;
+}
+
+/*form*/
+#mail_form{
+    background: #000000;
+}
+
+#form_container{
+    background: #24232377;
+    padding: 20px 60px;
+    flex-direction: column;
+}
+
+#form_container button{
+    align-self: end;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+/*Adaptation*/
+@media only screen and (max-width: 539px){
+    /*header*/
+    .header_container p{
+       font-size: 60px;
+       padding:0px;
+   }
+}
+
+@media only screen and (min-width: 540px){
+   /*header*/
+   .header_container p{
+       font-size: 70px;
+   }
+}
+
+@media only screen and (min-width: 768px){
+   
+}
+
+@media only screen and (min-width: 992px){
+   /*header*/
+   .header_container p{
+       font-size: 90px;
+   }
+}
+
+@media only screen and (min-width: 1200px){
+
+}
+
+@media only screen and (min-width: 1400px){
+   
+}
