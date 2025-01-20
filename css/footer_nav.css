@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+/*header*/
+body{
+    background: #000;
+    font-family: Poppins;
+}
+
+.navbar{
+    background: #000;
+}
+
+.navbar ul li{
+    font-family: bellefair;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-family: bellefair;
+    
+}
+
+/*footer*/
+
+footer{
+    margin-top: 30px;
+    background-color: #000;
+}
+
+/*social_media*/
+.social_media{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(89, 88, 88);
+    padding-top: 10px;
+}
+
+.social_media p{
+    color: white;
+    font-family: bellefair;
+}
+
+.social_media ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.social_media ul li a i{
+    width: 50px;
+    height: 50px;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+.social_media ul li a i:hover{
+    background: #404040;
+    transition: 0.5s;
+}
+
+/*Newsletter*/
+
+.newsletter p{
+    font-family: bellefair;
+    color: #ffffff;
+}
+
+#sign_up{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+/*Under Footer*/
+.footer_bottom{
+    border-bottom: 1px solid rgb(89, 88, 88);
+}
+
+.footer_bottom_section{
+    line-height: 0.7;
+}
+
+.footer_bottom_section p{
+    color:#8d8a8a;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.links a:hover{
+    color: #404040;
+}
+
+.under_footer span{
+    color:white;
+    font-size: 14px;
+}
