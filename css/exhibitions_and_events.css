@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bellefair&family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main{
+    margin-top: 70px;
+    width: 100%;
+    background-color: #000000;
+}
+
+/*filters*/
+#filters .h1{
+    font-family: bellefair;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.dropdown button, .dropdown-menu{
+    width: 100%;
+}
+
+.dropdown button{
+    border-radius: 0;
+}
+
+/*exhibitions*/
+#events_space {
+    margin-top: 30px;
+}
+
+#events_space .h1{
+    padding: 20px 0px;
+    color: white;
+    position: relative;
+    font-family: bellefair;
+}
+
+#events_space .h1::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+.card{
+    background: #252525;
+    color:white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card:hover{
+    scale: 1.05;
+}
+
+.card img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container{
+    border: 1px solid green;
+}
+
+.card-group{
+    gap:10px;
+}
